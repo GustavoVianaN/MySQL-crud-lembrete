@@ -1,0 +1,18 @@
+SQL
+-- Criar a primeira tabela
+CREATE TABLE tabela1 (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  coluna1 VARCHAR(255) NOT NULL,
+  coluna2 INT NOT NULL,
+  ...
+) ENGINE=InnoDB;
+
+-- Criar a segunda tabela
+CREATE TABLE tabela2 (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  coluna1 VARCHAR(255) NOT NULL,
+  coluna2 INT NOT NULL,
+  ...
+) ENGINE=InnoDB;
+
+-- ... (crie as demais tabelas)
